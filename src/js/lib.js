@@ -43,8 +43,6 @@ function renderLibraryFilms(key) {
     });
 }
 
-console.log(filmToCurrentPage)
-
 function renderPagLibrary(totalItems, key) {
   const pag = new Pagination('pagination', {
     totalItems: totalItems.length,
